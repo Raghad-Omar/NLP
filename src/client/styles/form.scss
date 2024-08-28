@@ -1,0 +1,31 @@
+form {
+    border: 100px solid #403242;
+    border-radius: 3px;
+    padding: 40px;
+    margin: 30px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border:solid 3px rgb(201, 104, 214)
+}
+#myForm{
+    padding: 10px;
+    margin: 10px;
+}
+#myForm label{
+    font-size: 20px;
+    box-shadow: rgb(150, 71, 173);
+    width: 300px;
+    font-weight: 600;
+}
+#myForm button{
+    background-color: aliceblue;
+    color: rgb(119, 58, 143);
+    border-radius: 2px;
+    border: 2px solid aliceblue;
+}

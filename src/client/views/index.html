@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/256/2353/2353723.png">
+    <title>test-webpack</title>
+</head>
+<body>
+    <div id="content">
+    <div class="container">
+        <form id="myForm">
+            <label for="URI"><b> Enter an Article URL :</b></label>
+            <input type="text" id="URI" name="URI"  />
+            <button id="submit"  value="Analyze">Analyze</button>
+        </form>
+    </div>
+    <div id="error" style="display: none;"></div>
+    <div id="results">
+        <h2><b>Results:</b></h2>
+        <div id="loader" style="display: none;"></div>
+
+        <ul id="resultsList">
+            <li id="agreement"></li>
+            <li id="subjectivity"></li>
+            <li id="confidence"></li>
+            <li id="irony"></li>
+            <li id="score_tag"></li>
+        </ul>
+    </div>
+</div>
+</body>
+
+</html>

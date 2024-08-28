@@ -1,0 +1,21 @@
+#resultsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    margin: 11px;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+ul li{
+padding: 5px;
+}
+#results h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 2px;
+    padding: 2px;
+
+}
